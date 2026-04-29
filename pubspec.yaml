@@ -1,0 +1,49 @@
+name: lookstrip
+description: "LooksTrip — AI-Powered Travel Planner"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # UI & Design
+  google_fonts: ^8.1.0
+  phosphor_flutter: ^2.1.0
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+  # Networking
+  dio: ^5.7.0
+
+  # Maps
+  mapbox_maps_flutter: 2.22.0
+
+  # Local Storage
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.4
+
+  # Environment
+  flutter_dotenv: ^6.0.1
+
+  # Backend (will be configured later)
+  supabase_flutter: ^2.8.4
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
