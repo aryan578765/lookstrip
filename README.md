@@ -1,5 +1,5 @@
 # LooksTrip
-
+# LooksTrip App
 AI-powered Flutter travel planner with phone auth, local-first trip storage,
 Supabase sync, Mapbox maps, backend-proxied itinerary/chat generation, backend
 proxy travel search, expenses, packing lists, and trip collaboration.
