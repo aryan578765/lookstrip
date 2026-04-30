@@ -1,0 +1,10 @@
+reviews:
+  auto_review:
+    enabled: true
+  path_filters:
+    - "lib/**"
+    - "test/**"
+    - "supabase/**"
+  profile: "assertive"
+chat:
+  auto_reply: true
